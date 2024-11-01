@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+.con{
+    background-color: #eee;
+    /* height: 100vh; */
+}
+
+.ProfileCon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 2rem;
+    padding-left: 2rem;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+
+.ProfileHeader{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-new);
+    font-size: 3.5rem;
+    text-align: left;
+    color : var(--main-txt-color);
+}
+
+.bttn {
+    background-color: var(--main-txt-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+.bttn:hover {
+    background-color: #EEF2FF;
+    color: var(--main-txt-color);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+}
+
+.Card{
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.CardTitle{
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-family-new);
+    font-size: 2rem;
+    color : var(--main-txt-color);
+}
+
+.CardBodytxt{
+    margin: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-new);
+    font-size: 1.5rem;
+}
+
+.CardBodytxt strong{
+    color: var(--main-txt-color);
+}
+
+.BtnCon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.BtnCon .bttn:nth-last-child(1){
+    background-color: rgba(197, 11, 11, 0.776);
+}
+
+.BtnCon .bttn:nth-last-child(1):hover {
+    background-color: #EEF2FF;
+    color: rgba(197, 11, 11, 0.776);
+}
+
+.CardImg{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media (max-width : 1300px) {
+    .ProfileCon{
+        display: block;
+    }
+    .ProfileCon .ProfileHeader{
+        text-align: center;
+    }
+    .BtnCon{
+        display: block;
+    }
+    .BtnCon .bttn{
+        margin-left: 2px;
+    }
+    .Card{
+        display: block !important;
+    }
+    .cardBody{
+        padding: 0.5rem !important;
+    }
+}
+
+/* ********************************* */
+
+.ModelDetailImage{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.ModelDetailtxt{
+    font-weight: bold;
+    font-family: var(--font-family-new);
+    font-size: 1.5rem;
+}
+
+.ModelDetailtxt p{
+    border-bottom: 1px solid #eee;
+}
+
+.ModelDetailtxt p:last-child{
+    border-bottom:none;
+}
+
+.ModelDetailtxt p strong{
+    color: var(--main-txt-color);
+}
+
+/* ********************************* */
+
+.EditBookHeader{
+    margin: 5rem 0 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-new);
+    font-size: 3rem;
+    text-align: center;
+    color : var(--main-txt-color);
+}

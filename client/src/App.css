@@ -1,0 +1,20 @@
+
+
+
+.buttonColor{
+  background-color: var(--btn-bg-color) !important; 
+  color: var(--primary-text-color);
+}
+
+.buttonColor:hover{
+  color: #fff;
+}
+
+
+.full-height {
+  height: calc(100vh - 400px); /* Adjust the height based on your navbar */
+}
+
+.custom-searchResult-margin {
+  margin-top: 100px !important; 
+}

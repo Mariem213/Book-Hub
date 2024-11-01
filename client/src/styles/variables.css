@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+:root {
+  --primary-bg-color: #000; /* Black */
+  --primary-text-color: #fff; /* White */
+  --btn-bg-color: #333333; /* Red */
+  --footer-text-color: #bac1c7; /* Light Grey */
+  --form-width: 450px;
+  --form-padding: 30px;
+  --font-size-small: 0.9rem;
+  --font-size-xsmall: 0.64rem;
+  --border-radius: 10px;
+  --box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --font-family: "Poppins", sans-serif;
+  /* ***** */
+  --font-family-new:"Forum", serif;
+  --main-txt-color : #3C486B;
+}

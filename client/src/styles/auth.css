@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+/* Login Form Container */
+.login-form {
+  width: 100%;
+  max-width: var(--form-width);
+  padding: var(--form-padding);
+  background: var(--primary-text-color);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  margin-top: 85px;
+  margin-left: 20px;
+  background-color: #eef2ff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #40425b;
+}
+
+/* Heading Style */
+h2 {
+  margin-bottom: 1rem;
+  font-family: "Forum", serif;
+}
+
+/* Custom Checkbox */
+.customRememberMe {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+#rememberMe {
+  margin-top: 5px;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+  font-size: var(--font-size-small);
+  color: #b8001f;
+  text-decoration: none;
+}
+/* sbmit button */
+.button-color {
+  background-color: #435585 !important;
+  border: none !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+/* create account */
+.signup,.login {
+  color: #b8001f;
+  text-decoration: none;
+}
+
+/* bg img */
+.bg-image-container {
+  background-image: url("../static/imgs/bookstore.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+}
+
+
+
+/* Placeholder Text Alignment */
+input::placeholder {
+  text-align: left;
+}
+
+/* Sign Up Form Container */
+
+.login-form input {
+  margin: 10px 0;
+}
+
+/* Sign Up Form Container */
+
+.full-height {
+  height: calc(100vh - 400px);
+}
+
+@media (min-width: 990px) and (max-width: 1224px) {
+  .login-form{
+    margin-top: 20px;
+  }
+  .ImageLogSign {
+    margin-top: 50px;
+  }
+  .bg-image-container {
+    height: 70vh;
+  }
+  .logCon{
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .login-form{
+    margin-top: 0px;
+  }
+  /* .ImageLogSign {
+    margin-top: 90px !important;
+  } */
+  .bg-image-container {
+    /* display: none; */
+    height: 50vh;
+  }
+  .logCon{
+    margin-top: 150px;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .login-form{
+    margin-top: 15rem;
+  }
+  /* .ImageLogSign {
+    margin-top: 90px !important;
+  } */
+  /* .bg-image-container {
+    height: 160vh;
+  } */
+}

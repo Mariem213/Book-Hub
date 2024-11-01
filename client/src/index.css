@@ -1,0 +1,34 @@
+@import './styles/variables.css';
+
+/* General Styles */
+body {
+  background-color: var(--primary-text-color); /* White */
+  margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: var(--primary-bg-color); /* Black */
+  padding: 1rem;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.center-logo {
+  height: 30px;
+
+}
+
+
+
+
+.buttonColor{
+  background-color: var(--btn-bg-color) !important; 
+  color: var(--primary-text-color);
+}
+
+.buttonColor:hover{
+  color: #fff;
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.nav-color {
+  background-color: var(--main-txt-color);
+  color: #fff;
+}
+
+.center-logo {
+  height: 70px; 
+  width: 70px;
+  margin-left: 40px;
+}
+
+.nav-size {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+  background-color: #eee;
+  width: 20%;
+  max-height: 700px;
+  overflow-y: auto;
+  z-index: 1000;
+  border: 1px solid #ccc;
+}
+
+.search-dropdown img {
+width: 40px;
+margin-right: 10px;
+}
+
+.search-dropdown h5 {
+margin: 0;
+font-size: 16px;
+}
+
+.search-dropdown p {
+margin: 0;
+font-size: 14px;
+color: gray;
+}
+
+.search-dropdown .list-group-item {
+display: flex;
+align-items: center;
+padding: 10px;
+cursor: pointer;
+}
+
+.search-book-image {
+width: 40px;
+margin-right: 10px;
+}
+
+@media (max-width: 1200px){
+  .nav-size {
+    text-align: center;
+  }
+  .searchInput{
+    margin-bottom: 2rem;
+    width: 60rem !important;
+  }
+  .search-dropdown {
+    top: 6.5rem;
+    right: 2rem;
+    width: 90%;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+  .search-dropdown {
+    right: 1.5rem;
+  }
+  .searchInput{
+    width: 45rem !important;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 380px){
+  .search-dropdown {
+    right: 0.5rem;
+  }
+  .searchInput{
+    width: 22rem !important;
+  }
+}
+
+@media (max-width: 379px) and (min-width: 230px){
+  .searchInput{
+    width: 17rem !important;
+  }
+}
+
+/* ************************************ */
+/* Book Details */
+
+.con{
+  background-color: #eee;
+}
+
+.CardCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ImgCon{
+  width: 30%;
+}
+
+.imgResult {
+  width: 100%;
+  height: 90vh;
+  margin: 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.BookDataCon{
+  width: 65%;
+}
+
+.BookDataCon strong{
+  color: var(--main-txt-color);
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1200px){
+  .CardCon {
+    display: block;
+  }
+  .ImgCon{
+    width: 95%;
+  }
+  .imgResult {
+    height: 50vh;
+  }
+  .BookDataCon{
+    width: 100%;
+  }
+}
